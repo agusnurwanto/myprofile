@@ -1,0 +1,218 @@
+@media only screen and (max-width: 1024px) {
+  #career .my-career .resume-timeline > li .resume-time span:last-child {
+    font-size: 24px;
+    margin-left: -15px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  #career .my-career .resume-timeline > li .resume-time span:last-child {
+    font-size: 20px;
+    margin-left: -15px;
+  }
+
+  #nav-wrap h3 {
+    font-size: 22px;
+  }
+
+  #nav-wrap ul li a {
+    margin: 20px 15px 5px 15px;
+    line-height: 1;
+  }
+}
+@media screen and (max-width: 768px) {
+  #nav-wrap h3 {
+    padding: 0 20px;
+  }
+
+  #nav-wrap ul li a {
+    margin: 20px 10px 5px;
+  }
+}
+@media screen and (max-width: 480px) {
+  /*==========  Blog  ==========*/
+  #blog .blog-masonry .item {
+    max-width: 360px;
+    margin: 20px auto;
+  }
+
+  .call-to-action span {
+    margin: 0px auto;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+  }
+
+  .call-to-action a.btn {
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 320px) {
+  /*==========  Blog  ==========*/
+  #blog .blog-masonry .item {
+    max-width: 280px;
+  }
+
+  .call-to-action span {
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    margin: 0px auto;
+    line-height: 1.2;
+  }
+}
+/*==========  Bootstrap Colume  ==========*/
+/* clear first in row in ie 8 or lower */
+.multi-columns-row .first-in-row {
+  clear: left;
+}
+
+/* clear the first in row for any block that has the class "multi-columns-row" */
+.multi-columns-row .col-xs-6:nth-child(2n + 3) {
+  clear: left;
+}
+
+.multi-columns-row .col-xs-4:nth-child(3n + 4) {
+  clear: left;
+}
+
+.multi-columns-row .col-xs-3:nth-child(4n + 5) {
+  clear: left;
+}
+
+.multi-columns-row .col-xs-2:nth-child(6n + 7) {
+  clear: left;
+}
+
+.multi-columns-row .col-xs-1:nth-child(12n + 13) {
+  clear: left;
+}
+
+@media (min-width: 768px) {
+  /* reset previous grid */
+  .multi-columns-row .col-xs-6:nth-child(2n + 3) {
+    clear: none;
+  }
+
+  .multi-columns-row .col-xs-4:nth-child(3n + 4) {
+    clear: none;
+  }
+
+  .multi-columns-row .col-xs-3:nth-child(4n + 5) {
+    clear: none;
+  }
+
+  .multi-columns-row .col-xs-2:nth-child(6n + 7) {
+    clear: none;
+  }
+
+  .multi-columns-row .col-xs-1:nth-child(12n + 13) {
+    clear: none;
+  }
+
+  /* clear first in row for small columns */
+  .multi-columns-row .col-sm-6:nth-child(2n + 3) {
+    clear: left;
+  }
+
+  .multi-columns-row .col-sm-4:nth-child(3n + 4) {
+    clear: left;
+  }
+
+  .multi-columns-row .col-sm-3:nth-child(4n + 5) {
+    clear: left;
+  }
+
+  .multi-columns-row .col-sm-2:nth-child(6n + 7) {
+    clear: left;
+  }
+
+  .multi-columns-row .col-sm-1:nth-child(12n + 13) {
+    clear: left;
+  }
+}
+@media (min-width: 992px) {
+  /* reset previous grid */
+  .multi-columns-row .col-sm-6:nth-child(2n + 3) {
+    clear: none;
+  }
+
+  .multi-columns-row .col-sm-4:nth-child(3n + 4) {
+    clear: none;
+  }
+
+  .multi-columns-row .col-sm-3:nth-child(4n + 5) {
+    clear: none;
+  }
+
+  .multi-columns-row .col-sm-2:nth-child(6n + 7) {
+    clear: none;
+  }
+
+  .multi-columns-row .col-sm-1:nth-child(12n + 13) {
+    clear: none;
+  }
+
+  /* clear first in row for medium columns */
+  .multi-columns-row .col-md-6:nth-child(2n + 3) {
+    clear: left;
+  }
+
+  .multi-columns-row .col-md-4:nth-child(3n + 4) {
+    clear: left;
+  }
+
+  .multi-columns-row .col-md-3:nth-child(4n + 5) {
+    clear: left;
+  }
+
+  .multi-columns-row .col-md-2:nth-child(6n + 7) {
+    clear: left;
+  }
+
+  .multi-columns-row .col-md-1:nth-child(12n + 13) {
+    clear: left;
+  }
+}
+@media (min-width: 1200px) {
+  /* reset previous grid */
+  .multi-columns-row .col-md-6:nth-child(2n + 3) {
+    clear: none;
+  }
+
+  .multi-columns-row .col-md-4:nth-child(3n + 4) {
+    clear: none;
+  }
+
+  .multi-columns-row .col-md-3:nth-child(4n + 5) {
+    clear: none;
+  }
+
+  .multi-columns-row .col-md-2:nth-child(6n + 7) {
+    clear: none;
+  }
+
+  .multi-columns-row .col-md-1:nth-child(12n + 13) {
+    clear: none;
+  }
+
+  /* clear first in row for large columns */
+  .multi-columns-row .col-lg-6:nth-child(2n + 3) {
+    clear: left;
+  }
+
+  .multi-columns-row .col-lg-4:nth-child(3n + 4) {
+    clear: left;
+  }
+
+  .multi-columns-row .col-lg-3:nth-child(4n + 5) {
+    clear: left;
+  }
+
+  .multi-columns-row .col-lg-2:nth-child(6n + 7) {
+    clear: left;
+  }
+
+  .multi-columns-row .col-lg-1:nth-child(12n + 13) {
+    clear: left;
+  }
+}
+
+/*# sourceMappingURL=responsive(test).css.map */

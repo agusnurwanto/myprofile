@@ -1,0 +1,8 @@
+bower_components
+node_modules
+sass
+assets
+.sass-cache
+npm-debug.log
+profil.zip
+config.rb

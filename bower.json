@@ -1,0 +1,21 @@
+{
+  "name": "profile",
+  "version": "0.0.0",
+  "authors": [
+    "Agus Nurwanto <agusnurwantomuslim@gmail.com>"
+  ],
+  "description": "tugas bikin profile PP",
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "index.html",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "lumx": "~0.2.54"
+  }
+}
