@@ -6,3 +6,5 @@ assets
 npm-debug.log
 profil.zip
 config.rb
+*.jpg
+*.png
