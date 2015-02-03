@@ -16,6 +16,7 @@
     "tests"
   ],
   "dependencies": {
-    "lumx": "~0.2.54"
+    "lumx": "~0.2.54",
+    "fontawesome": "~4.3.0"
   }
 }
